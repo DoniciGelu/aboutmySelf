@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+
+body {
+    margin: 30px;
+
+}
+
+    h1 {
+    text-align: center;
+    color: red;
+    background-color: aqua;
+    border: dashed black;
+    }
+
+    h2 {
+        text-align: center;
+        display:flex ;
+        align-items: center;
+    }
+
+
+
+.gridContainer {
+    display: grid;
+    column-gap:50px;
+    grid-template-columns: auto auto auto;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.gridPersons {
+    margin: 10px;
+    display: grid;
+    column-gap: 100px;
+    grid-template-columns: auto auto auto auto;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+
+.gridPersons div {
+    background-color: blueviolet;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+
+}
+.gridPersons img {
+    margin-top: 20px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.gridPersons h5 { 
+    background-color: brown;
+    font-size: larger;
+}
+.familyMembers {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Rubik Spray Paint', cursive;
+    font-size: 20px;
+}
+
+
+.assests {
+    height: 300px;
+    }

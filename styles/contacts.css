@@ -1,0 +1,12 @@
+body {
+    margin: 30px;
+
+}
+
+    h1 {
+    text-align: center;
+    color: red;
+    background-color: aqua;
+    border: dashed black;
+    }
+

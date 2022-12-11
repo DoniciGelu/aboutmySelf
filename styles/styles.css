@@ -1,0 +1,35 @@
+body {
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    background-color:aqua;
+    border: dashed black;
+}
+
+h2 {
+    text-align: center;
+    display:flex ;
+    align-items: center;
+}
+
+.gridAboutMe {
+    border-radius: 20px;
+    padding: 30px;
+    display: grid;
+    column-gap:50px;
+    grid-template-columns: auto auto auto;
+    background-color: blue;
+    padding: 10px;
+    font-size: larger;
+    
+}
+
+.gridAboutMe img {
+    height: 300px;
+}
+
+
+
