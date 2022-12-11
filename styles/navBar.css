@@ -5,15 +5,14 @@ body { font-family:Arial, Helvetica, sans-serif;
     
 }
 ul.navbar {
-    border-radius: 10px;
     list-style-type: none;
-    margin: 0;
+    margin: 0 0 0 -30px;
     padding: 0;
-    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: rgb(206, 151, 50);
     font-size: 30px;
-
-    
 }
 
 ul.navbar li {
@@ -32,4 +31,69 @@ ul.navbar li a {
 ul.navbar li a:hover {
     background-color: red;
 }
+
+ol.navbar {
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 30;
+    padding: 5px;
+    margin-left: 10px;
+    overflow: hidden;
+    background-color: rgb(206, 151, 50);
+    font-size: 25px;
+
+    
+}
+
+ol.navbar li {
+    float:left;
+    border-right: 30px solid #bbb ; 
+    text-decoration: none;
+     
+    
+}
+
+ol.navbar li a {
+    text-decoration: none;
+    
+}
+
+ol.navbar a:hover {
+    background-color: red;
+}
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
 
