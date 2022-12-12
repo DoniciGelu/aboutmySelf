@@ -61,13 +61,6 @@ ol.navbar li a {
 ol.navbar a:hover {
     background-color: red;
 }
-.dropbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-}
 
 .dropdown {
     position: relative;
@@ -94,6 +87,6 @@ ol.navbar a:hover {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
 
 
