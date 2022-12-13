@@ -1,19 +1,18 @@
-body {
-    margin: 40px;
-    margin-top: 100px;
-}
+
 
 h1 {
     text-align: center;
     color: red;
     background-color:aqua;
     border: dashed black;
+    padding: 15px;
 }
 
 h2 {
     text-align: center;
     display:flex ;
     align-items: center;
+    padding: 25px;
 }
 
 .gridAboutMe {

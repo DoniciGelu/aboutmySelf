@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
 
-body { font-family:Arial, Helvetica, sans-serif;
-    background-color:aqua
+body { 
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:aqua;
     
 }
 ul.navbar {
     list-style-type: none;
-    margin: 0 0 0 -30px;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    margin:30px;
+    padding:0px 20px 0 20px;
     background-color: rgb(206, 151, 50);
-    font-size: 30px;
+    font-size: 27px;
+    border-radius: 20px;
 }
 
 ul.navbar li {
-    float:left;
+    display: inline-block;
     border-right: 30px solid #bbb ; 
     text-decoration: none;
-     
-    
+}
+
+ul.navbar li:last-child{
+    border: none;
 }
 
 ul.navbar li a {
@@ -29,36 +30,6 @@ ul.navbar li a {
 }
 
 ul.navbar li a:hover {
-    background-color: red;
-}
-
-ol.navbar {
-    border-radius: 10px;
-    list-style-type: none;
-    margin: 30;
-    padding: 5px;
-    margin-left: 10px;
-    overflow: hidden;
-    background-color: rgb(206, 151, 50);
-    font-size: 25px;
-
-    
-}
-
-ol.navbar li {
-    float:left;
-    border-right: 30px solid #bbb ; 
-    text-decoration: none;
-     
-    
-}
-
-ol.navbar li a {
-    text-decoration: none;
-    
-}
-
-ol.navbar a:hover {
     background-color: red;
 }
 
@@ -73,7 +44,7 @@ ol.navbar a:hover {
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    /* z-index:1; */
 }
 
 .dropdown-content a {

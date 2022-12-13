@@ -1,12 +1,11 @@
-body {
-    margin: 30px;
-}
+
 
 h1 { text-align: center;
      color: red;
      background-color: aqua;
      border: dashed black;
      border-radius: 20px;
+     margin-bottom: 30px;
 }
 h2 {
     display: flex;
