@@ -54,6 +54,7 @@
 .gridPersons h5 { 
     background-color: brown;
     font-size: larger;
+    margin-top: 60px;
 }
 .familyMembers {
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
@@ -65,3 +66,9 @@
 .assests {
     height: 300px;
     }
+.adudioPersons {
+    
+    background-color: black;
+    
+
+}

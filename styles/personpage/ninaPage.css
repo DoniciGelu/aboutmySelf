@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+}
+
+.personsPage h2 {
+    text-align: center;
+    display:flex ;
+    align-items: center;
+    padding: 25px;
+}
+
+.personsPage {
+    border-radius: 20px;
+    padding: 30px;
+    display: grid;
+    column-gap:50px;
+    grid-template-columns: auto auto auto;
+    background-color: blue;
+    padding: 10px;
+    font-size: larger;
+    
+}
+
+.personsPage img {
+    height: 300px;
+}
+
