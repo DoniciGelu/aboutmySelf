@@ -10,18 +10,28 @@ body {
 }
 
 .personsPage {
-    border-radius: 20px;
-    padding: 30px;
     display: grid;
     column-gap:50px;
     grid-template-columns: auto auto auto;
-    background-color: blue;
+}
+
+.personsSection {
+    border: dashed rgb(18, 18, 19) 10px;
+    margin: 50px; 
+    padding: 40px; 
+    border-radius: 20px;
+    padding: 30px;
+    background-color:blueviolet ;
     padding: 10px;
-    font-size: larger;
-    
+    font-size:xx-large;
 }
 
 .personsPage img {
-    height: 300px;
+    height: 400px;
+}
+
+.audio {
+    text-align: center;
+    align-items: center;
 }
 

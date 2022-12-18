@@ -1,21 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
-
-
-
-    h1 {
+h1 {
     text-align: center;
     color: red;
     background-color: aqua;
     border: dashed black;
-    }
+}
 
-    h2 {
-        text-align: center;
-        display:flex ;
-        align-items: center;
-    }
-
-
+h2 {
+    text-align: center;
+    display:flex ;
+    align-items: center;
+}
 
 .gridContainer {
     display: grid;
@@ -33,8 +28,7 @@
     grid-template-columns: auto auto auto auto;
     background-color: aqua;
     padding: 10px;
-    border-radius: 30px;
-    
+    border-radius: 30px;  
 }
 
 .gridPersons div {
@@ -45,6 +39,7 @@
     color: white;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 .gridPersons img {
     margin-top: 20px;
     height: 200px;
@@ -56,19 +51,12 @@
     font-size: larger;
     margin-top: 60px;
 }
+
 .familyMembers {
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: 'Rubik Spray Paint', cursive;
     font-size: 20px;
 }
 
-
 .assests {
     height: 300px;
-    }
-.adudioPersons {
-    
-    background-color: black;
-    
-
 }

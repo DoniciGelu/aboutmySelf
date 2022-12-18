@@ -2,7 +2,6 @@ body {
     background-color: yellow;
 }
 
-
 .gridMovieAnime {
     margin: 10px;
     padding: 20px;
@@ -12,6 +11,7 @@ body {
     background-color: white;
     border-radius: 20px;
 }
+
 .gridMovieAnime div {
     background-color:yellow;
     text-align: center;
@@ -19,15 +19,16 @@ body {
     margin-bottom:20px ;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 .gridMovieAnime h5 {
     background-color: red;
     color: white;
     text-align: center;
     align-items:center;
 }
+
 .gridMovieAnime img {
     height: 300px; 
     border-radius: 30px;
     margin-top: 20px;
-    
 }
